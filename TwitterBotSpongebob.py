@@ -86,7 +86,7 @@ while i < 700:
 	if len(newString3) > 140:
 		newString3 = newString3[0:140]
     
-  api.update_status(newString3)
+  	api.update_status(newString3)
     
 	i += 1
 	time.sleep(900)
